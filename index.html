@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="favicon.jpg" type="image/jpg">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <div class="containermestre">
+        <div class="container">
+            <h1 id="título">Sobre mim</h1>
+            <p>
+                Meu nome é Kevin, tenho 18 anos e sou formado em Técnico em Desenvolvimento de Sistemas pela Etec.
+                <br>Atualmente estou cursando Análise e desenvolvimento de sistemas pela Ceunsp.
+                <br>Sou flamenguista
+            </p>
+            <p>Contate-me:</p>
+            <div class="formdiv">
+                <form id="form" action="https://formsubmit.co/fl4mengo333@gmail.com" method="POST">
+                    <input type="text" id="pnome" name="pnome" placeholder="Nome" required><br>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required><br>
+                    <input type="text" id="ass" name="ass" placeholder="Assunto" required><br>
+                    <textarea id="men" placeholder="Mensagem" required></textarea><br>
+                    <input type="hidden" name="_next" value="https://keverkauvoman.github.io/portfoliokevin.github.io/obrigado.html">
+                    <input type="submit" id="submit" value="Enviar Mensagem">
+                </form>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1 id="título">Redes sociais</h1>
+            <p>
+                Algumas das redes sociais que utilizo para contato.
+                O Whatsapp é para conversar, irei postar vídeos no Instagram e o LinkedIn será usado para
+                atualizar meu currículo.
+            </p>
+            <p>
+                Minhas redes:
+            </p>
+            <div
+                style="display: flex; flex: 1; color: #25D366; font-size: 70px; margin-top: 50px; justify-content: center;">
+                <i onclick="whats()" class="fab fa-whatsapp"></i>
+            </div><br>
+            <div
+                style="display: flex; flex: 1; color: #E1306C; font-size: 70px; margin-top: 50px; justify-content: center;">
+                <i onclick="insta()" class="fab fa-instagram"></i>
+            </div><br>
+            <div
+                style="display: flex; flex: 1; color: #0077B5; font-size: 70px; margin-top: 50px; justify-content: center;">
+                <i onclick="linke()" class="fab fa-linkedin"></i>
+            </div><br>
+        </div>
+
+        <div class="container">
+            <h1 id="título">Habilidades</h1>
+            <ul class="skills-list">
+                <li>
+                    <strong>HTML5</strong><br>
+                    Desenvolvimento da estrutura semântica de páginas web, criação de navegação, organização de conteúdo
+                    e uso de boas práticas para acessibilidade.
+                </li>
+                <li>
+                    <strong>CSS3</strong><br>
+                    Estilização avançada com Flexbox e Grid Layout, desenvolvimento de interfaces responsivas, criação
+                    de animações e transições modernas.
+                </li>
+                <li>
+                    <strong>JavaScript</strong><br>
+                    Implementação de interatividade com manipulação do DOM, controle de eventos, lógica de programação e
+                    desenvolvimento de funcionalidades dinâmicas.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
